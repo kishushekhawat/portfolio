@@ -8,6 +8,7 @@ import Exp3 from './assets/interview.jpg'
 import { ConfettiButton } from '@/components/ui/confetti';
 import BlurFade from "@/components/ui/blur-fade";
 import ShinyButton from "@/components/ui/shiny-button";
+import { BiSolidUserAccount } from "react-icons/bi";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <div className="flex mt-3 gap-3">
                 <a href="https://www.linkedin.com/in/krishna-shekhawat-982814323/" target='_blank' className='text-xl'><CiLinkedin /></a>
 
+                <a href="https://flowcv.com/resume/g04iwmp98aih" target='_blank' className='text-xl'><BiSolidUserAccount /> </a>
               </div>
             </div>
             <img src={image} alt="" className='object-cover rounded-full h-24 w-24' />
