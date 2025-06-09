@@ -85,7 +85,7 @@ function App() {
                     mimics the functionality of OpenAI’s ChatGPT. This project
                     allows users to interact with an AI assistant in real-time,
                     sending and receiving messages dynamically.
-                    <a href="https://gpt-chat-api-rho.vercel.app/"></a>
+                    <a className="text-black" href="https://gpt-chat-api-rho.vercel.app/"></a>
                   </p>
                 </div>
               </div>
