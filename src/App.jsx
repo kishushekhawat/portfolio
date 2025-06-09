@@ -24,7 +24,7 @@ function App() {
                 real-world products through clean and responsive UI design.
               </p>
               <div className="flex mt-3 gap-3">
-                <div className='relative group'>
+                <div className="relative group">
                   <a
                     href="https://www.linkedin.com/in/krishna-shekhawat-982814323/"
                     target="_blank"
@@ -37,18 +37,18 @@ function App() {
                   </span>
                 </div>
 
-              <div className="relative group">
+                <div className="relative group">
                   <a
-                  href="https://flowcv.com/resume/g04iwmp98aih"
-                  target="_blank"
-                  className="text-2xl hover:text-blue-600 transition-colors"
-                >
-                  <BiSolidUserAccount />
-                </a>
-                 <span className="absolute -top-8 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all bg-gray-800 text-white text-xs px-2 py-1 rounded shadow z-10">
-      Resume
-    </span>
-              </div>
+                    href="https://flowcv.com/resume/g04iwmp98aih"
+                    target="_blank"
+                    className="text-2xl hover:text-blue-600 transition-colors"
+                  >
+                    <BiSolidUserAccount />
+                  </a>
+                  <span className="absolute -top-8 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all bg-gray-800 text-white text-xs px-2 py-1 rounded shadow z-10">
+                    Resume
+                  </span>
+                </div>
               </div>
             </div>
             <img
@@ -85,8 +85,23 @@ function App() {
                     mimics the functionality of OpenAI’s ChatGPT. This project
                     allows users to interact with an AI assistant in real-time,
                     sending and receiving messages dynamically.
-                    <a className="text-black" target="_blank" href="https://gpt-chat-api-rho.vercel.app/"></a>
                   </p>
+                  <div className="flex flex-col space-y-1 mt-2">
+                    <a
+                      className="ml-1 text-blue-600 underline hover:text-blue-800"
+                      target="_blank"
+                      href="https://gpt-chat-api-rho.vercel.app/"
+                    >
+                      https://gpt-chat-api-rho.vercel.app/
+                    </a>
+                    <a
+                      className="ml-1 text-blue-600 underline hover:text-blue-800"
+                      target="_blank"
+                      href="https://github.com/kishushekhawat/gptChatAPI"
+                    >
+                      https://github.com/kishushekhawat/gptChatAPI
+                    </a>
+                  </div>
                 </div>
               </div>
               <p className="text-neutral-500 font-ligh"></p>
@@ -103,8 +118,23 @@ function App() {
                     The React To-Do App is a simple yet powerful task management
                     application that allows users to organize their daily
                     activities efficiently.
-
                   </p>
+                  <div className="flex flex-col space-y-1 mt-2">
+                    <a
+                      className="ml-1 text-blue-600 underline hover:text-blue-800"
+                      target="_blank"
+                      href="https://clerk-todo.vercel.app/"
+                    >
+                   https://clerk-todo.vercel.app/
+                    </a>
+                    <a
+                      className="ml-1 text-blue-600 underline hover:text-blue-800"
+                      target="_blank"
+                      href="https://github.com/kishushekhawat/clerk-todo"
+                    >
+                      https://github.com/kishushekhawat/clerk-todo
+                    </a>
+                  </div>
                 </div>
               </div>
               <p className="text-neutral-500 font-ligh"></p>
@@ -124,6 +154,22 @@ function App() {
                     records the user's spoken response, and then analyzes the
                     answer using AI to provide constructive feedback.
                   </p>
+                  <div className="flex flex-col space-y-1 mt-2">
+                    <a
+                      className="ml-1 text-blue-600 underline hover:text-blue-800"
+                      target="_blank"
+                      href="https://interview-gpt-teal.vercel.app/"
+                    >
+                 https://interview-gpt-teal.vercel.app/
+                    </a>
+                    <a
+                      className="ml-1 text-blue-600 underline hover:text-blue-800"
+                      target="_blank"
+                      href="https://github.com/kishushekhawat/Interview-GPT"
+                    >
+                   https://github.com/kishushekhawat/Interview-GPT
+                    </a>
+                  </div>
                 </div>
               </div>
               <p className="text-neutral-500 font-ligh"></p>
