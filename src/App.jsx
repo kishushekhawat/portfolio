@@ -79,12 +79,13 @@ function App() {
               <div className="flex items-center gap-4">
                 <img src={Exp1} className="h-10 rounded-full" alt="" />
                 <div>
-                  <h2 className="text-sm font-semibold">GptClone</h2>
+                  <h2 className="text-sm font-semibold ">GptClone</h2>
                   <p className="text-sm">
                     The ChatGPT Clone is an AI-powered chat application that
                     mimics the functionality of OpenAI’s ChatGPT. This project
                     allows users to interact with an AI assistant in real-time,
                     sending and receiving messages dynamically.
+                    <a href="https://gpt-chat-api-rho.vercel.app/"></a>
                   </p>
                 </div>
               </div>
@@ -102,6 +103,7 @@ function App() {
                     The React To-Do App is a simple yet powerful task management
                     application that allows users to organize their daily
                     activities efficiently.
+
                   </p>
                 </div>
               </div>
